@@ -1,5 +1,5 @@
-from random import shuffle
+import random
 
 lista = ["Maria", "Jose", "Antonio", "Estrela", "Marcos", "Ingrid", "Vitoria"]
-shuffle(lista)
-print (f'A pessoa sorteada foi: {lista}')
+escolhido = random.choice(lista)
+print('A pessoa sorteada foi: {}'.format(escolhido))
